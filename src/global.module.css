@@ -1,0 +1,19 @@
+.p{
+    color: green;
+    text-align: center;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.h3{
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.p2{
+    color: purple;
+    text-align: center;
+    width: 80%;
+    margin: 1rem auto; 
+}

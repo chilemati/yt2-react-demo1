@@ -1,0 +1,38 @@
+@mixin flex_between() {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin flex_center() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex($type) {
+    display: flex;
+    align-items: center;
+    justify-content: $type;
+}
+
+@mixin image ($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@mixin mobile () {
+    @media screen and (min-width: 300px) {
+        @content;
+    }
+}
+@mixin tablet () {
+    @media screen and (min-width: 700px) {
+        @content;
+    }
+}
+@mixin desktop () {
+    @media screen and (min-width: 900px) {
+        @content;
+    }
+}

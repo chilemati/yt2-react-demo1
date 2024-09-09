@@ -1,0 +1,17 @@
+{
+    "images": {
+        "cloudName": "dlifiojbx",
+        "image1": {
+            "url": "https://res.cloudinary.com/dlifiojbx/image/upload/v1725768316/image_7_zsg51o.png",
+            "disc": "text"
+        },
+        "image2": {
+            "url": "https://res.cloudinary.com/dlifiojbx/image/upload/v1725768315/image_8_naai2g.png",
+            "disc": "text"
+        },
+        "image3": {
+            "url": "https://res.cloudinary.com/dlifiojbx/image/upload/v1725724714/scandinavian-interior-mockup-wall-decal-background_1_wq1kkp.png",
+            "disc": "text"
+        }
+    }
+}

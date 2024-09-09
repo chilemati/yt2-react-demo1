@@ -1,0 +1,31 @@
+@import '../scss/variables';
+@import '../scss/extend';
+
+// $variableName: value;
+// $primaryColor: blue;
+// $secondaryColor: crimson;
+
+#About{
+    border: 1px dashed $primaryColor;
+    @extend .shadow;
+    @extend .radius;
+    @extend .width80;
+
+
+     h2{
+        text-align: center;
+    }
+    h3{
+        color: $secondaryColor;
+        // text-align: center;
+        // font-size: 3rem;
+        @extend .h3;
+    }
+}
+
+// #About h2{
+//     text-align: center;
+// }
+// #About h3{
+//     color: crimson;
+// }

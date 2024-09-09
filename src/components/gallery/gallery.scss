@@ -1,0 +1,45 @@
+@import '../scss/extend';
+@import '../scss/variables';
+@import '../scss/includes';
+
+#Gallery{
+    @extend .width80;
+    @extend .radius;
+    @extend .shadow;
+    @include flex(space-around);
+    // justify-content: space-between;
+    @include mobile{
+        background-color: gray;
+        flex-direction: column;
+    }
+    @include tablet{
+        background-color: lightgreen;
+        flex-direction: row;
+    }
+    @include desktop{
+        background-color: unset;
+    }
+    .card{
+        min-height: 20vh;
+        span{
+
+            &:hover{
+               color: red;
+            }
+        }
+        @include tablet{
+            @include image('../../assets/react.svg');
+
+        }
+    }
+    .two{
+        h3{
+            color: purple;
+
+        }
+        p{
+            color: yellowgreen;
+        }
+    }
+
+}

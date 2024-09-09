@@ -1,3 +1,32 @@
 .para1{
   color: red;
 }
+
+.swiper-pagination{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  /* border: 1px solid red; */
+}
+
+.clamp-div{
+  /* width: 800px; */
+  width: clamp(300px,500px,100%);
+  margin: auto;
+  margin-top: 2rem;
+  border: 4px royalblue groove;
+  padding: 1rem 2rem;
+}
+
+.clamp{
+  width: clamp(300px,500px,100%);
+
+}
+
+.clampH3{
+  font-size: clamp(1.6rem, 2rem, 3.5rem);
+  text-align: clamp('left','center','right');
+}
+.clampP{
+  font-size: clamp(1.4rem, 1.6rem, 2.5rem);
+}
